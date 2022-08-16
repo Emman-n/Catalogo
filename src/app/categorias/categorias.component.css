@@ -48,3 +48,17 @@ footer{
 
 
    }
+
+
+   .card-body {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+
+  img {
+
+  height: 200px;
+  min-width: 200px;
+   text-align: center;
+  }

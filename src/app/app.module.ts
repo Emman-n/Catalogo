@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { AguaComponent } from './agua/agua.component';
+import { ElectricosComponent } from './electricos/electricos.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AguaComponent } from './agua/agua.component';
     ContactenosComponent,
     NosotrosComponent,
     AguaComponent,
+    ElectricosComponent,
 
 
 
@@ -40,6 +42,8 @@ import { AguaComponent } from './agua/agua.component';
         { path: 'sobre-nosotros', component: NosotrosComponent },
 
         { path: 'agua', component: AguaComponent },
+
+        { path: 'electricos', component: ElectricosComponent },
 
 
 
