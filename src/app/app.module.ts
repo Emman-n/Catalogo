@@ -11,6 +11,7 @@ import { ContactenosComponent } from './contactenos/contactenos.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { AguaComponent } from './agua/agua.component';
 import { ElectricosComponent } from './electricos/electricos.component';
+import { SanitariosComponent } from './sanitarios/sanitarios.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ElectricosComponent } from './electricos/electricos.component';
     NosotrosComponent,
     AguaComponent,
     ElectricosComponent,
+    SanitariosComponent,
 
 
 
@@ -44,6 +46,8 @@ import { ElectricosComponent } from './electricos/electricos.component';
         { path: 'agua', component: AguaComponent },
 
         { path: 'electricos', component: ElectricosComponent },
+
+        { path: 'sanitarios', component: SanitariosComponent },
 
 
 

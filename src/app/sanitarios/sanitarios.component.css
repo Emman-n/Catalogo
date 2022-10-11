@@ -44,22 +44,21 @@ footer{
 
 
    }
+   .container {
+    /* remember to set a width */
+    margin-right: auto;
+    margin-left: auto;
+
+    display: block;
+  }
 
 
-.img-resize {
+.services-section img {
 
-    height: 300px;
-    width: auto;
-
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-
-
-.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-}
-
 
 .services-section img {
 
@@ -70,10 +69,4 @@ footer{
 
 
 
-.services-section2 img {
-
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
