@@ -1,128 +1,117 @@
 <!DOCTYPE html>
-<html  >
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="home.component.css">
 </head>
 
- <body>
+<body>
 
-
-<div  class="main" style="background-image: url('../../assets/images/img1.jpg');  background-position: 50% 50%; background-size: cover; height: 65vh; width: 100%;   ">
-
-
-
-
+  <div class="main"
+    style="background-image: url('../../assets/images/img1.jpg');  background-position: 50% 50%; background-size: cover; height: 65vh; width: 100%;   ">
     <div class="container py-3">
-        <div class="row py-2">
-
-            <div class="col-lg-7 pt-5  text-center">
-
-                <h1>Productos y Accesorios en PVC</h1>
-
-            </div>
-
+      <div class="row py-2">
+        <div class="col-lg-7 pt-5  text-center">
+          <h1>Productos y Accesorios en PVC</h1>
         </div>
-    </div>
-
-</div>
-
-
-<div class="container py-5">
-  <div class="row py-5 ">
-      <div class="col-lg-5  m-auto text-center">
-      <h1>        Mas informacio del negocio     </h1>
-       <p>Frace que haga ver bien a la empresa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, temporibus sequi facilis natus tenetur numquam minima atque vel, voluptas blanditiis cum voluptates assumenda architecto neque odit magnam. A, sit doloribus?</p>
       </div>
+    </div>
   </div>
 
-</div>
+  <div class="info">
+    <div class="container py-5">
+      <div class="row py-5 ">
+        <div class="col-lg-5  m-auto text-center">
+          <h1> Mas informacio del negocio </h1>
 
-
-<section class="categories">
-
-
-    <div class="container py-1">
-        <div class="row py-3 ">
-            <div class="col-lg-5  m-auto text-center">
-                <h1>Categorias</h1>
-                <h6>Usos mas frecuentes</h6>
-            </div>
+          <div class="mt-4 col-md-12">
+            <p>Frace que haga ver bien a la empresa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus,
+              temporibus sequi facilis natus tenetur numquam minima atque vel, voluptas blanditiis cum voluptates
+              assumenda architecto neque odit magnam. A, sit doloribus?</p>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
-        <div class="container" style="margin-bottom:20px">
-            <div class="row">
-
-                <div class="col-sm">
-                  <a routerLink="/agua">
-                    <div class="card border-0 bg-light">
-                        <div class="card-body">
-                            <img src="../../assets/images/img2.jpg" class="img-fluid">
-                        </div>
-                        <h5 style="text-align: center;">Agua</h5>
-                    </div>
-
-                  </a>
-                </div>
-
-                <div class="col-sm">
-                  <a routerLink="/electricos">
-                    <div class="card border-0 bg-light">
-                        <div class="card-body">
-                            <img src="../../assets/images/electrico.jpg" class="img-fluid">
-                        </div>
-                        <h5 style="text-align: center;">Electricos</h5>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="col-sm">
-                    <div class="card border-0 bg-light mb-2">
-                        <div class="card-body">
-                            <img  src="../../assets/images/sanitarios.jpg" class="img-fluid">
-                        </div>
-                        <h5 style="text-align: center; ">Sanitarios</h5>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-            <div class="row" style="margin-bottom:90px; margin-top: 10px;">
-                <div class="col-lg-6 text-center m-auto">
-                    <button  class="btn1"   routerLink="/categorias"  >Mas categorias</button>
-                </div>
-            </div>
+  <section class="categories">
+    <div class="container py-1">
+      <div class="row py-3 ">
+        <div class="col-lg-5  m-auto text-center">
+          <h1>Categorias</h1>
+          <h6>Usos mas frecuentes</h6>
         </div>
       </div>
 
+      <div class="mt-3 col-md-12">
 
-    </section>
+        <div class="container" style="margin-bottom:20px">
+          <div class="row">
 
-      <footer   class="border-top" >
+            <div class="col-sm">
+              <a routerLink="/electricos">
+                <div class="card border-0 bg-light">
+                  <div class="card-body">
+                    <div class="services-section">
+                      <img src="../../assets/images/img2.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <h5 style="text-align: center;">Agua</h5>
+                </div>
+              </a>
+            </div>
 
-        <p> © 2022 Conexotub S A</p>
+            <div class="col-sm">
+              <a routerLink="/electricos">
+                <div class="card border-0 bg-light">
+                  <div class="card-body">
+                    <div class="services-section">
+                      <img src="../../assets/images/electrico.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <h5 style="text-align: center;">Electricos</h5>
+                </div>
+              </a>
+            </div>
 
+            <div class="col-sm">
+              <a routerLink="/sanitarios">
+                <div class="card border-0 bg-light">
+                  <div class="services-section">
+                    <div class="card-body">
+                      <div class="resize-sanitario">
+                        <img src="../../assets/images/categorias/sanitarios.jpg" class="img-fluid">
+                      </div>
+                    </div>
 
+                  </div>
+                  <h5 style="text-align: center;">Sanitarios</h5>
+                </div>
+              </a>
+            </div>
 
-        </footer>
- </body>
+          </div>
 
+          <div class="row" style="margin-bottom:90px; margin-top: 10px;">
+            <div class="col-lg-6 text-center m-auto">
+              <button class="btn1" routerLink="/categorias">Mas categorias</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </section>
 
+  <footer class="border-top">
 
+    <p> © 2022 Conexotub S A</p>
 
-
+  </footer>
+</body>
 
 </html>

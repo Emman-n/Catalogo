@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding:0 ;
 
- }
 
 
  html{
@@ -126,4 +122,27 @@ img {
 height: 200px;
 min-width: 200px;
  text-align: center;
+}
+
+
+.services-section img {
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+.resize-sanitario img{
+
+  max-width: 300px;
+
+
+}
+
+
+.info{
+
+  padding: 3px;
 }
