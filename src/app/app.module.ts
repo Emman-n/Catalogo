@@ -12,6 +12,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { AguaComponent } from './agua/agua.component';
 import { ElectricosComponent } from './electricos/electricos.component';
 import { SanitariosComponent } from './sanitarios/sanitarios.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SanitariosComponent } from './sanitarios/sanitarios.component';
     AguaComponent,
     ElectricosComponent,
     SanitariosComponent,
+    FooterComponent,
 
 
 

@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding:0 ;
 
- }
 
 
  html{
@@ -10,6 +6,8 @@
   height: 100%;
   width: 100%;
 
+
+  padding: 0px;
  }
 
 
@@ -29,15 +27,14 @@ position: relative;
 
      }
 
-
-
-
-
 footer{
+
+  height: 100%;
+  width: 100%;
 
   text-align: left;
   background-color: rgb(255, 255, 255);
-  padding: 20px;
+
   position: absolute;
   bottom: 0;
   width: 100%;
