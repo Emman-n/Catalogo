@@ -1,39 +1,25 @@
-*{
-  margin: 0;
-  padding:0 ;
-
- }
-
-
- html{
+html{
 
   height: 100%;
   width: 100%;
 
- }
+  }
 
+  body{
 
-
-
- body{
-
-  margin:  0;
+  margin: 0;
 
   min-height: 100%;
 
-position: relative;
+  position: relative;
 
   padding-bottom: 100px;
 
   min-height: 100hv;
 
-     }
+  }
 
-
-
-
-
-footer{
+  footer{
 
   text-align: left;
   background-color: rgb(255, 255, 255);
@@ -42,31 +28,30 @@ footer{
   bottom: 0;
   width: 100%;
 
-
-   }
-   .container {
-    /* remember to set a width */
-    margin-right: auto;
-    margin-left: auto;
-
-    display: block;
   }
 
+  .container {
+  margin-right: auto;
+  margin-left: auto;
 
-.services-section img {
+  display: block;
+
+  border-radius: 50px;
+
+  border-color: red;
+
+  }
+
+  .services-section img {
 
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
+  }
 
-.services-section img {
+  .services-section {
 
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-
-
-
-
+  }

@@ -11,62 +11,19 @@
   height: 100%;
   width: 100%;
 
+
  }
 
+.navbar{
+
+  font-size: 17px;
 
 
-
- body{
-
-  margin:  0;
-
-  min-height: 100%;
-
-position: relative;
-
-  padding-bottom: 100px;
-
-  min-height: 100hv;
-
-     }
-
-
-
-
-
-footer{
-
-  text-align: left;
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-
-
-   }
-   .container {
-    /* remember to set a width */
-    margin-right: auto;
-    margin-left: auto;
-
-    display: block;
-  }
-
-
-.services-section img {
-
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
-.services-section img {
 
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
+
 
 
 

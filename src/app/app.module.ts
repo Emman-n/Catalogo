@@ -13,6 +13,10 @@ import { AguaComponent } from './agua/agua.component';
 import { ElectricosComponent } from './electricos/electricos.component';
 import { SanitariosComponent } from './sanitarios/sanitarios.component';
 import { FooterComponent } from './footer/footer.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { DatosService } from './datos.service';
+import { DatosListComponent } from './datos-list/datos-list.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +30,15 @@ import { FooterComponent } from './footer/footer.component';
     ElectricosComponent,
     SanitariosComponent,
     FooterComponent,
+    DatosListComponent,
+    ProductDetailsComponent,
 
 
 
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     RouterModule.forRoot([
 
@@ -51,11 +58,11 @@ import { FooterComponent } from './footer/footer.component';
 
         { path: 'sanitarios', component: SanitariosComponent },
 
-
+        {path: 'datos/:id', component:ProductDetailsComponent}
 
     ])
   ],
-  providers: [],
+  providers: [DatosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

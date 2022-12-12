@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosService } from '../datos.service';
 
 @Component({
   selector: 'app-sanitarios',
@@ -7,9 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SanitariosComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+
+constructor( ) { }
+ngOnInit(): void {
+}
+
+
 
 }
+
+//public datoss:any[] = [];
+//onstructor(private _datoService: DatosService) { }
+ //ngOnInit() {
+  //  this._datoService.getDatos()
+    //    .subscribe(data => this.datoss = data);
+  //}
+
+
+
+
+
+
+

@@ -1,31 +1,26 @@
-
- html{
+html{
 
   height: 100%;
   width: 100%;
 
- }
-
-
-
-
- body{
-
-
-     }
+  }
 
 
 
 
 
-footer{
+  .container{
 
-  text-align: left;
-  background-color: rgb(255, 255, 255);
+margin-top: 10px;
+max-width: 100%
 
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  }
 
 
-   }
+
+  .frame iframe{
+
+    max-width: 100%;
+
+
+  }

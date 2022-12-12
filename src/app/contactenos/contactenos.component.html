@@ -1,144 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
 
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6 text-center mb-5">
-          <h2 class="heading-section"> </h2>
+  <div class="container">
+    <div class="row">
+
+      <div class="col col-xl-6">
+        <div class="Contact">
+          <div class="contact-wrap w-100 p-md-5 p-4">
+            <h3 class="mb-4">Contactenos</h3>
+            <div id="form-message-warning" class="mb-2"></div>
+            <div id="form-message-success" class="mb-2">
+              Envie un correo
+            </div>
+            <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group" style="margin-top: 10px ;">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group" style="margin-top: 10px ;">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group" style="margin-top: 10px ;">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group" style="margin-top: 10px ;">
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="7"
+                      placeholder="Mensaje"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group" style="margin-top: 10px ;">
+                    <input type="submit" value="Enviar" class="btn btn-primary">
+                    <div class="submitting"></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-10 col-md-12">
-          <div class="wrapper">
-            <div class="row no-gutters">
-              <div class="col-md-7 d-flex align-items-stretch">
-                <div class="contact-wrap w-100 p-md-5 p-4">
-                  <h3 class="mb-4">Contactenos</h3>
-                  <div id="form-message-warning" class="mb-4"></div>
-                  <div id="form-message-success" class="mb-4">
-                    Envie un correo
+
+
+      <div class="col col-xl-6">
+        <div class="Informacion">
+          <div class=" contact-wrap w-100 p-md-5 p-4">
+            <div class="  align-items-stretch">
+              <div class="info-wrap bg-light  p-lg-3 p-3">
+                <h3 class="mb-3 mt-md-3"> Informacion: </h3>
+                <div class="dbox w-100 d-flex align-items-start">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-map-marker"></span>
                   </div>
-                  <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Correo">
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <textarea name="message" class="form-control" id="message" cols="30" rows="7"
-                            placeholder="Mensaje"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="submit" value="Enviar" class="btn btn-primary">
-                          <div class="submitting"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  <div class="text pl-3">
+                    <p><span>Direccion:</span> De Cenada cien metros sur y veinticinco metros al este.
+                      Heredia, Ulloa, Pitahaya, diagonal a Productos Florida, Edificio de 2 plantas, Bodegas y
+                      Oficinas de Conexotub.</p>
+                  </div>
                 </div>
-              </div>
-
-
-              <div class="col-md-5 d-flex align-items-stretch">
-                <div class="info-wrap bg-light  w-300  p-lg-5 p-4">
-                  <h3 class="mb-3 mt-md-3"> Informacion: </h3>
-                  <div class="dbox w-100 d-flex align-items-start">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-map-marker"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <p><span>Direccion:</span> De Cenada cien metros sur y veinticinco metros al este.
-                        Heredia, Ulloa, Pitahaya, diagonal a Productos Florida, Edificio de 2 plantas, Bodegas y Oficinas de Conexotub.</p>
-                    </div>
+                <div class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-phone"></span>
                   </div>
-                  <div class="dbox w-100 d-flex align-items-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-phone"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <p><span>Telefono:</span> <a href="tel://87314623">  2239 - 2776 </a></p>
-                    </div>
+                  <div class="text pl-3">
+                    <p><span>Telefono:</span> <a href="tel://87314623"> 2239 - 2776 </a></p>
                   </div>
-                  <div class="dbox w-100 d-flex align-items-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-paper-plane"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <p><span>Correo:</span> <a href="Oficina@conexotub.com"> Oficina@conexotub.com</a>
-
-                      </p>
-                    </div>
+                </div>
+                <div class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-paper-plane"></span>
                   </div>
-                  <div class="dbox w-100 d-flex align-items-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-globe"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <p><span>Horario: Lunes - Viernes : 7am - 5pm</span> <a href="#"></a></p>
-                     </div>
+                  <div class="text pl-3">
+                    <p><span>Correo:</span> <a href="Oficina@conexotub.com"> Oficina@conexotub.com</a>
 
+                    </p>
                   </div>
-<p style="padding-top: 15px ;">
+                </div>
+                <div class="dbox w-100 d-flex align-items-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-globe"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <p><span>Horario: Lunes - Viernes : 7am - 5pm</span> <a href="#"></a></p>
+                  </div>
 
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745.7181785692346!2d-84.15103505784904!3d9.982920409876996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fb91684f5949%3A0x649c1097d6bdbcad!2sIndustria%20Los%20Patitos%2C%20S.A.!5e1!3m2!1sen!2scr!4v1659141313885!5m2!1sen!2scr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </p>
                 </div>
 
-
-
-
+                <div class="frame">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.7615058381366!2d-84.15151270478042!3d9.982938672406235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fbf32c65cd37%3A0xad6c2bcf63865140!2sCONEXOTUB%20S.A!5e1!3m2!1sen!2scr!4v1670871370457!5m2!1sen!2scr"
+                    width="500" height="300" style="border:0; max-height: 100%; " allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
 
               </div>
-
-
-
-
             </div>
           </div>
         </div>
+
       </div>
+
+
+
     </div>
-
-
-  </section>
-
-
-
-
-
-  <footer   class="border-top" >
-
-    <p> © 2022 Conexotub S A</p>
-
-
-
-    </footer>
-
-
-
+  </div>
 
 </body>
-</html>
 
+</html>
